@@ -10,6 +10,9 @@ public class Main {
 		System.out.println("El resultado de la suma es: ");
 		Result.Show();
 		
+		Result=n1.SubtComplex(n1, n2);
+		System.out.println("El resultado de la resta es: ");
+		Result.Show();
 	}
 
 }

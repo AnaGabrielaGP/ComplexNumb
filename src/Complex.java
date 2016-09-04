@@ -22,6 +22,15 @@ class Complex {
 		return Result;
 	}
 	
+	public Complex SubtComplex(Complex n1, Complex n2){
+		Complex Result = new Complex();
+		
+		Result.Real = n1.Real - n2.Real;
+		Result.Img = n1.Img - n2.Img;
+		
+		return Result;
+	}
+	
 	public void Show(){
 		System.out.println(Real+ "+(" +Img +"i)");
 	}

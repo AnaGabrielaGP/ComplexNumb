@@ -13,6 +13,10 @@ public class Main {
 		Result=n1.SubtComplex(n1, n2);
 		System.out.println("El resultado de la resta es: ");
 		Result.Show();
+		
+		Result=n1.ProductComplex(n1, n2);
+		System.out.println("El resultado de la multiplicacion es: ");
+		Result.Show();
 	}
 
 }

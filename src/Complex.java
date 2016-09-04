@@ -31,6 +31,15 @@ class Complex {
 		return Result;
 	}
 	
+	public Complex ProductComplex(Complex n1, Complex n2){
+		Complex Result = new Complex();
+		
+		Result.Real = (n1.Real*n2.Real)-(n1.Img*n2.Img);
+		Result.Img = (n1.Real*n2.Img)+(n1.Img*n2.Real);
+		
+		return Result;
+	}
+	
 	public void Show(){
 		System.out.println(Real+ "+(" +Img +"i)");
 	}
